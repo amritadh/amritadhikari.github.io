@@ -1,0 +1,116 @@
+body {  
+margin:0px;
+font-style: italic;
+background-image:url("backie.jpg");
+}
+
+
+.navig > ul {
+  font-size: 30px;
+  padding:5px;
+  font-weight:bold;
+  font-color:blue;
+  cursor:pointer;
+  width: 100%;
+  }
+
+.navig > ul > li {
+  display:inline-grid;
+  padding: 8px 20px;
+  text-decoration: none;
+
+}
+ul {
+  list-style: none;
+}
+
+#file {
+  color:#CD6155;
+}
+
+#file a{
+  text-decoration: none;
+
+}
+#stat{
+  color:#CD6155;
+}
+#stat a{
+  text-decoration: none;
+}
+#median{
+  color: #CD6155;
+}
+
+#median a{
+  text-decoration: none;
+}
+
+#downward {
+  display: none;
+  position: absolute;
+  width: 100%;
+text-decoration: none;
+}
+
+#downward a:hover {background-color: orange}
+#downward.active {
+  display: block;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  text-align:left;
+  background-color:lightblue;
+  list-style-type: none;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-style: oblique;
+  border-radius: 20px;
+
+}
+#mode {
+  display: none;
+  position: absolute;
+  width: 100%;
+
+}
+#mode a:hover {background-color: orange}
+#mode.active {
+  display: block;
+  position: relative;
+  font-size: 20px;
+  font-style: oblique;
+  padding: 10px 20px;
+  width: 100%;
+  z-index: 1;
+  text-align:left;
+background-color: lightblue;
+border-radius: 20px; 
+
+}
+
+#mean {
+  display: none;
+  position: absolute;
+  width: 100%;
+
+}
+#mean a:hover {background-color:orange}
+#mean.active {
+  display: block;
+  background-color: lightblue;
+  position: relative;
+  font-size: 20px;
+  font-style: oblique;
+  width: 100%;
+  z-index: 1;
+  text-align:left;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 768px) 
+{
+    }
+
